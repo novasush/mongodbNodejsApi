@@ -524,7 +524,7 @@ Now that everything is now connected, let’s test each of the routes and the re
 
 1. Open your postman and type: `http://localhost:3000/tasks` in the enter request URL section and press **enter**
 
-  ![alt text](.img/5.png)
+    ![alt text](.img/5.png)
 
   On enter, you should see “[]” because there is nothing in the database yet.
 
