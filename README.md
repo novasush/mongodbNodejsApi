@@ -167,7 +167,7 @@ See [Supported Platforms](https://docs.mongodb.com/manual/installation/#mongodb-
   sudo apt-key fingerprint 0EBFCD88
   ```
 
-6. Add apt repository \\\
+6. Add apt repository
 
   ```
   sudo add-apt-repository \
@@ -176,7 +176,7 @@ See [Supported Platforms](https://docs.mongodb.com/manual/installation/#mongodb-
    stable"
   ```
 
-  or
+    or
 
   ```
   sudo add-apt-repository \
