@@ -271,7 +271,8 @@ See [Supported Platforms](https://docs.mongodb.com/manual/installation/#mongodb-
   ```
   Kindly type yes and press enter to complete the creation of our package.json. Having done all these, your folder structure should look like this:
 
-  ![alt text](img/1.png)
+  ![alt text](.img/1.png)
+
   3. Create a file called server.js
   ```
   touch server.js
@@ -286,7 +287,7 @@ See [Supported Platforms](https://docs.mongodb.com/manual/installation/#mongodb-
   ```
   Our directory structure should look like this now:
 
-  ![alt text](img/2.png)
+  ![alt text](.img/2.png)
 
 
 #### 1.2 Server Setup
@@ -304,7 +305,7 @@ See [Supported Platforms](https://docs.mongodb.com/manual/installation/#mongodb-
   ```
   After modification your package.json should look like this:
 
-  ![alt text](img/3.png)
+  ![alt text](.img/3.png)
 
   2. Open the server.js file and type the code below into it.
   ```
@@ -316,7 +317,8 @@ See [Supported Platforms](https://docs.mongodb.com/manual/installation/#mongodb-
 
   console.log('Node api server running on port ' + port);  // log to check whether server running or not
   ```
-  ![alt text](img/4.png)
+
+  ![alt text](.img/4.png)
 
   3. On your terminal, run `npm run start` this will start the server and then you will see
   ```
@@ -522,7 +524,7 @@ Now that everything is now connected, let’s test each of the routes and the re
 
 1. Open your postman and type: `http://localhost:3000/tasks` in the enter request URL section and press **enter**
 
-  ![alt text](img/5.png)
+  ![alt text](.img/5.png)
 
   On enter, you should see “[]” because there is nothing in the database yet.
 
@@ -531,13 +533,13 @@ Now that everything is now connected, let’s test each of the routes and the re
    After this, click on send button.
    This should give you a response 200 ok
 
-   ![alt text](img/6.png)
+   ![alt text](.img/6.png)
 
 
 3. Now i am going to alter an existing record, where i will be specifying a particular id in url.
    change the method to POST, click body and select “x-www-form-urlencoded”. Then, enter status as key and the corresponding "completed" as its value.
 
-    ![alt text](img/7.png)
+    ![alt text](.img/7.png)
 
   As you can see that, i have changed my existing status from pending to completed.
 
