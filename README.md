@@ -653,7 +653,7 @@ docker-compose up
 
 * Try creating more new records using POST
 
-* Fetch all the records presentational
+* Fetch all the records present.
 
 * Update Existing record.
 
